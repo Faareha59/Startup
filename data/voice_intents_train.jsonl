@@ -1,0 +1,211 @@
+{"text": "snapchat karo", "intent": "open_snapchat", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "mujhe saved cheezein dikhao", "intent": "open_saved_items", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "search youtube for old songs", "intent": "search_youtube_video", "language": "mixed", "target_users": "older_adults", "entities": {"content_query": "old songs"}}
+{"text": "youtube par surah rehman chalao please", "intent": "search_youtube_video", "language": "mixed", "target_users": "older_adults", "entities": {"content_query": "surah rehman"}}
+{"text": "share picture with ammi", "intent": "send_image", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ammi"}}
+{"text": "make a call to sara", "intent": "call_contact", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "commands batao", "intent": "unknown_or_help", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "ammi ko voice message bhejo", "intent": "send_voice_note", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ammi"}}
+{"text": "search youtube for old songs please", "intent": "search_youtube_video", "language": "mixed", "target_users": "older_adults", "entities": {"content_query": "old songs"}}
+{"text": "naam ali rakh do", "intent": "confirm_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ali"}}
+{"text": "saved videos dikhao", "intent": "open_saved_items", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "open whatsapp please", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "help karo please", "intent": "unknown_or_help", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "what name should i save", "intent": "ask_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "thora neeche jao", "intent": "scroll_down", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "upar scroll karo please", "intent": "scroll_up", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "sara naam se save karo", "intent": "confirm_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "open facebook", "intent": "open_facebook", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "main kya bolun", "intent": "unknown_or_help", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "save contact as doctor sahib", "intent": "confirm_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "doctor sahib"}}
+{"text": "go to facebook", "intent": "open_facebook", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "whatsapp open", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "save this number 03001234567", "intent": "save_contact", "language": "mixed", "target_users": "older_adults", "entities": {"phone_number": "03001234567"}}
+{"text": "mujhe sara se baat karni hai", "intent": "open_contact_chat", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "scroll down", "intent": "scroll_down", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "mujhe photo bhejni hai sara ko", "intent": "send_image", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "add contact 03001234567", "intent": "save_contact", "language": "mixed", "target_users": "older_adults", "entities": {"phone_number": "03001234567"}}
+{"text": "scroll up", "intent": "scroll_up", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "mujhe whatsapp khol do", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "go to youtube", "intent": "open_youtube", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "mujhe samajh nahi aa raha", "intent": "unknown_or_help", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "go to facebook please", "intent": "open_facebook", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "please open whatsapp please", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "youtube pe qawwali search karo please", "intent": "search_youtube_video", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ali", "content_query": "qawwali  karo"}}
+{"text": "send photo to sara on whatsapp", "intent": "send_image", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "youtube", "intent": "open_youtube", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "youtube kholo please", "intent": "open_youtube", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "save this number 03001234567 please", "intent": "save_contact", "language": "mixed", "target_users": "older_adults", "entities": {"phone_number": "03001234567"}}
+{"text": "open snapchat please", "intent": "open_snapchat", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "youtube open karo please", "intent": "open_youtube", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "dial 03001234567", "intent": "call_contact", "language": "mixed", "target_users": "older_adults", "entities": {"phone_number": "03001234567"}}
+{"text": "sara whatsapp chat", "intent": "open_contact_chat", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "is contact ka naam kya rakhun please", "intent": "ask_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "youtube karo", "intent": "open_youtube", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "page upar le jao", "intent": "scroll_up", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "record and send voice message to sara please", "intent": "send_voice_note", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "ye number contact mein save karo 03001234567 please", "intent": "save_contact", "language": "mixed", "target_users": "older_adults", "entities": {"phone_number": "03001234567"}}
+{"text": "open youtube", "intent": "open_youtube", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "save this number 03001234567", "intent": "save_contact", "language": "mixed", "target_users": "older_adults", "entities": {"phone_number": "03001234567"}}
+{"text": "phone lagao ammi ko please", "intent": "call_contact", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ammi"}}
+{"text": "scroll karo neeche please", "intent": "scroll_down", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "make a call to sara please", "intent": "call_contact", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "whatsapp open please", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "open facebook please", "intent": "open_facebook", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "page neeche le jao", "intent": "scroll_down", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "whatsapp kholo", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "ali ko image bhejo", "intent": "send_image", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ali"}}
+{"text": "naam bata dein please", "intent": "ask_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "scroll up", "intent": "scroll_up", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "whats app karo", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "sara ko voice note bhejo", "intent": "send_voice_note", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "scroll karo upar", "intent": "scroll_up", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "please open whatsapp", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "snapchat khol do", "intent": "open_snapchat", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "ali ko image bhejo please", "intent": "send_image", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ali"}}
+{"text": "snapchat kholo please", "intent": "open_snapchat", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "saved button kholo please", "intent": "open_saved_items", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "kis naam se save karun", "intent": "ask_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "add contact 03001234567 please", "intent": "save_contact", "language": "mixed", "target_users": "older_adults", "entities": {"phone_number": "03001234567"}}
+{"text": "neeche scroll karo please", "intent": "scroll_down", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "facebook khol do", "intent": "open_facebook", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "name for this contact please", "intent": "ask_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "open saved section", "intent": "open_saved_items", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "neeche scroll karo", "intent": "scroll_down", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "whats app open karo", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "upar jao", "intent": "scroll_up", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "sara ko voice note bhejo please", "intent": "send_voice_note", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "mujhe youtube pe naat sunni hai", "intent": "open_youtube", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "kya kya kar sakte ho", "intent": "unknown_or_help", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "neeche scroll karo", "intent": "scroll_down", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "youtube pe qawwali search karo", "intent": "search_youtube_video", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ali", "content_query": "qawwali  karo"}}
+{"text": "saved items kholo", "intent": "open_saved_items", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "is number ko save karo 03001234567", "intent": "save_contact", "language": "mixed", "target_users": "older_adults", "entities": {"phone_number": "03001234567"}}
+{"text": "scroll karo upar please", "intent": "scroll_up", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "open whatsapp", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "save as sara", "intent": "confirm_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "sara ko tasveer bhejo", "intent": "send_image", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "open saved section please", "intent": "open_saved_items", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "phone lagao ammi ko", "intent": "call_contact", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ammi"}}
+{"text": "youtube par surah rehman chalao", "intent": "search_youtube_video", "language": "mixed", "target_users": "older_adults", "entities": {"content_query": "surah rehman"}}
+{"text": "whatsapp open", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "dial 03001234567", "intent": "call_contact", "language": "mixed", "target_users": "older_adults", "entities": {"phone_number": "03001234567"}}
+{"text": "whatsapp", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "naam ali rakh do please", "intent": "confirm_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ali"}}
+{"text": "go to whatsapp please", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "call ali please", "intent": "call_contact", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ali"}}
+{"text": "find contact sara and open chat please", "intent": "open_contact_chat", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "sara ko tasveer bhejo", "intent": "send_image", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "mujhe facebook karna hai", "intent": "open_facebook", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "snapchat", "intent": "open_snapchat", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "snapchat open karo please", "intent": "open_snapchat", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "naat video dhondo", "intent": "search_youtube_video", "language": "mixed", "target_users": "older_adults", "entities": {"content_query": "naat video dhondo"}}
+{"text": "snapchat kholo", "intent": "open_snapchat", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "phone lagao ammi ko", "intent": "call_contact", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ammi"}}
+{"text": "facebook kholo please", "intent": "open_facebook", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "kis naam se save karun", "intent": "ask_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "go to snapchat", "intent": "open_snapchat", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "ye number contact mein save karo 03001234567", "intent": "save_contact", "language": "mixed", "target_users": "older_adults", "entities": {"phone_number": "03001234567"}}
+{"text": "find recipe video on youtube", "intent": "search_youtube_video", "language": "mixed", "target_users": "older_adults", "entities": {"content_query": "find reci video on"}}
+{"text": "ali ko image bhejo", "intent": "send_image", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ali"}}
+{"text": "mujhe saved cheezein dikhao", "intent": "open_saved_items", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "mujhe facebook open karna hai", "intent": "open_facebook", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "saved items kholo please", "intent": "open_saved_items", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "isko ammi ke naam se save karo", "intent": "confirm_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ammi"}}
+{"text": "send photo to sara on whatsapp please", "intent": "send_image", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "go to youtube please", "intent": "open_youtube", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "sara ko call karo", "intent": "call_contact", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "sara ka chat khol do", "intent": "open_contact_chat", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "go to facebook", "intent": "open_facebook", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "saved items khol do", "intent": "open_saved_items", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "watsapp khol do", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "thora neeche jao please", "intent": "scroll_down", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "thora neeche jao", "intent": "scroll_down", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "mujhe sara se baat karni hai please", "intent": "open_contact_chat", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "search ali and open whatsapp", "intent": "open_contact_chat", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ali"}}
+{"text": "go to whatsapp", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "search youtube for old songs", "intent": "search_youtube_video", "language": "mixed", "target_users": "older_adults", "entities": {"content_query": "old songs"}}
+{"text": "send voice note to ali", "intent": "send_voice_note", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ali"}}
+{"text": "youtube par surah rehman chalao", "intent": "search_youtube_video", "language": "mixed", "target_users": "older_adults", "entities": {"content_query": "surah rehman"}}
+{"text": "whatsapp khol do", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "name for this contact", "intent": "ask_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "watsapp kholo", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "mujhe whatsapp khol do", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "go to whatsapp", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "saved button kholo", "intent": "open_saved_items", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "go to snapchat please", "intent": "open_snapchat", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "help karo", "intent": "unknown_or_help", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "mujhe facebook open karna hai please", "intent": "open_facebook", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "facebook chalao please", "intent": "open_facebook", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "save as sara please", "intent": "confirm_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "saved videos dikhao", "intent": "open_saved_items", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "saved section", "intent": "open_saved_items", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "saved button khol do", "intent": "open_saved_items", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "find recipe video on youtube please", "intent": "search_youtube_video", "language": "mixed", "target_users": "older_adults", "entities": {"content_query": "find reci video on"}}
+{"text": "facebook chalao", "intent": "open_facebook", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "whatsapp kholo please", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "scroll karo upar", "intent": "scroll_up", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "youtube pe qawwali search karo", "intent": "search_youtube_video", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ali", "content_query": "qawwali  karo"}}
+{"text": "go to snapchat", "intent": "open_snapchat", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "scroll karo neeche", "intent": "scroll_down", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "save as sara", "intent": "confirm_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "ye number contact mein save karo 03001234567", "intent": "save_contact", "language": "mixed", "target_users": "older_adults", "entities": {"phone_number": "03001234567"}}
+{"text": "mujhe photo bhejni hai sara ko please", "intent": "send_image", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "isko ammi ke naam se save karo please", "intent": "confirm_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ammi"}}
+{"text": "commands batao", "intent": "unknown_or_help", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "mujhe youtube pe naat sunni hai", "intent": "open_youtube", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "youtube open karo", "intent": "open_youtube", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "page neeche le jao please", "intent": "scroll_down", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "open sara whatsapp chat please", "intent": "open_contact_chat", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "scroll down", "intent": "scroll_down", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "main kya bolun please", "intent": "unknown_or_help", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "share picture with ammi please", "intent": "send_image", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ammi"}}
+{"text": "sara ko call karo", "intent": "call_contact", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "naam bata dein", "intent": "ask_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "mujhe whatsapp khol do please", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "isko ammi ke naam se save karo", "intent": "confirm_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ammi"}}
+{"text": "mujhe sara se baat karni hai", "intent": "open_contact_chat", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "naat video dhondo please", "intent": "search_youtube_video", "language": "mixed", "target_users": "older_adults", "entities": {"content_query": "naat video dhondo"}}
+{"text": "upar jao", "intent": "scroll_up", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "naam ali rakh do", "intent": "confirm_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ali"}}
+{"text": "scroll karo neeche", "intent": "scroll_down", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "mujhe snapchat pe jana hai please", "intent": "open_snapchat", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "upar scroll karo", "intent": "scroll_up", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "make a call to sara", "intent": "call_contact", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "please whatsapp", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "is contact ka naam kya rakhun", "intent": "ask_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "upar jao please", "intent": "scroll_up", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "sara naam se save karo please", "intent": "confirm_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "kya kya kar sakte ho", "intent": "unknown_or_help", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "kis naam se save karun please", "intent": "ask_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "find contact sara and chat", "intent": "open_contact_chat", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "mujhe snapchat pe jana hai", "intent": "open_snapchat", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "save contact as doctor sahib please", "intent": "confirm_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "doctor sahib"}}
+{"text": "facebook chalao", "intent": "open_facebook", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "mujhe photo bhejni hai sara ko", "intent": "send_image", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "page upar le jao please", "intent": "scroll_up", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "saved videos dikhao please", "intent": "open_saved_items", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "is contact ka naam kya rakhun", "intent": "ask_contact_name", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "facebook", "intent": "open_facebook", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "sara ko voice note bhejo", "intent": "send_voice_note", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "mujhe samajh nahi aa raha please", "intent": "unknown_or_help", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "whats app open karo please", "intent": "open_whatsapp", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "facebook kholo", "intent": "open_facebook", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "mujhe youtube pe naat sunni hai please", "intent": "open_youtube", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "scroll down please", "intent": "scroll_down", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "ammi ko voice message bhejo", "intent": "send_voice_note", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ammi"}}
+{"text": "find contact sara and open chat", "intent": "open_contact_chat", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "find recipe video on youtube", "intent": "search_youtube_video", "language": "mixed", "target_users": "older_adults", "entities": {"content_query": "find reci video on"}}
+{"text": "naat video dhondo", "intent": "search_youtube_video", "language": "mixed", "target_users": "older_adults", "entities": {"content_query": "naat video dhondo"}}
+{"text": "whatsapp pe voice note bhejna hai please", "intent": "send_voice_note", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "mujhe samajh nahi aa raha", "intent": "unknown_or_help", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "record and send voice message to sara", "intent": "send_voice_note", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "whatsapp pe voice note bhejna hai", "intent": "send_voice_note", "language": "mixed", "target_users": "older_adults", "entities": {}}
+{"text": "search ali and whatsapp", "intent": "open_contact_chat", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ali"}}
+{"text": "share picture with ammi", "intent": "send_image", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ammi"}}
+{"text": "sara ko call karo please", "intent": "call_contact", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "call ali", "intent": "call_contact", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ali"}}
+{"text": "send photo to sara on whatsapp", "intent": "send_image", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "sara"}}
+{"text": "send voice note to ali", "intent": "send_voice_note", "language": "mixed", "target_users": "older_adults", "entities": {"contact_name": "ali"}}
+{"text": "add contact 03001234567", "intent": "save_contact", "language": "mixed", "target_users": "older_adults", "entities": {"phone_number": "03001234567"}}
+{"text": "snapchat open karo", "intent": "open_snapchat", "language": "mixed", "target_users": "older_adults", "entities": {}}
