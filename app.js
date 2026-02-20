@@ -25,6 +25,10 @@ function includesAny(text, list) {
   return list.some((p) => text.includes(p));
 }
 
+function hasIntentWord(text) {
+  return includesAny(text, ['open', 'kholo', 'chalao', 'launch', 'start', 'jao', 'go to']);
+}
+
 function parseCommand(transcript) {
   const text = transcript.toLowerCase().trim();
   const number = getNumber(text);
@@ -46,20 +50,19 @@ function parseCommand(transcript) {
     return { type: 'sms', number, body };
   }
 
-  if (includesAny(text, ['open camera', 'camera kholo'])) {
-    return { type: 'open_url', url: 'https://webcamera.io/' };
+  if ((text.includes('camera') && hasIntentWord(text)) || includesAny(text, ['open camera', 'camera kholo'])) {
+    return { type: 'open_url', url: 'https://webcamera.io/', label: 'Camera' };
   }
 
-
-  if (includesAny(text, ['open youtube', 'youtube kholo', 'go to youtube', 'youtube chalao'])) {
+  if (text.includes('youtube') && hasIntentWord(text)) {
     return { type: 'open_url', url: 'https://www.youtube.com', label: 'YouTube' };
   }
 
-  if (includesAny(text, ['open whatsapp', 'whatsapp kholo', 'go to whatsapp'])) {
+  if ((text.includes('whatsapp') || text.includes("what's app")) && hasIntentWord(text)) {
     return { type: 'open_url', url: 'https://web.whatsapp.com', label: 'WhatsApp Web' };
   }
 
-  if (includesAny(text, ['open google', 'google kholo', 'go to google'])) {
+  if (text.includes('google') && hasIntentWord(text)) {
     return { type: 'open_url', url: 'https://www.google.com', label: 'Google' };
   }
 
@@ -130,7 +133,9 @@ function execute(command) {
 function processTranscript(transcript) {
   transcriptText.textContent = transcript || '-';
   const command = parseCommand(transcript);
-  actionText.textContent = execute(command);
+  const actionMessage = execute(command);
+  actionText.textContent = actionMessage;
+  statusText.textContent = actionMessage;
 }
 
 renderContacts();
@@ -138,7 +143,6 @@ renderContacts();
 document.querySelectorAll('.chip').forEach((chip) => {
   chip.addEventListener('click', () => {
     processTranscript(chip.textContent || '');
-    statusText.textContent = 'Executed sample command';
   });
 });
 

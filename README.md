@@ -12,6 +12,7 @@ A modern single-page voice assistant demo for browser usage.
 - Shows live status, transcript, action output, and saved-contact list
 - Includes clickable sample command chips for quick demo
 - Supports non-number commands like `open YouTube`, `open WhatsApp`, and `open Google`
+- Supports flexible phrasing order like `WhatsApp open`, `YouTube kholo`, `Google open`
 
 ## Project files
 - `index.html` → upgraded UI layout
