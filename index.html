@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voice Control Assistant (English + Roman Urdu)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="hero glass">
+        <p class="badge">English + Roman Urdu</p>
+        <h1>🎙️ Voice Control Assistant</h1>
+        <p class="subtitle">
+          Speak naturally and launch common phone actions from your browser in a cleaner, modern interface.
+        </p>
+
+        <div class="actions">
+          <button id="listenBtn" class="btn btn-primary">Start Listening</button>
+          <button id="stopBtn" class="btn btn-secondary" disabled>Stop</button>
+        </div>
+
+        <div class="status-grid">
+          <article class="status-card">
+            <p class="label">Status</p>
+            <p id="statusText" class="value">Idle</p>
+          </article>
+          <article class="status-card">
+            <p class="label">You said</p>
+            <p id="transcriptText" class="value">-</p>
+          </article>
+          <article class="status-card">
+            <p class="label">Action</p>
+            <p id="actionText" class="value">-</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel glass">
+        <h2>Try these commands</h2>
+        <div class="chips">
+          <span class="chip">Save this number 03001234567</span>
+          <span class="chip">Is number ko save karo 03001234567</span>
+          <span class="chip">Go to WhatsApp and message 03001234567</span>
+          <span class="chip">Call 03001234567</span>
+          <span class="chip">SMS bhejo 03001234567 hello</span>
+          <span class="chip">Open camera / camera kholo</span>
+          <span class="chip">Open YouTube / youtube kholo</span>
+          <span class="chip">Open WhatsApp</span>
+        </div>
+      </section>
+
+      <section class="panel glass">
+        <div class="contacts-header">
+          <h2>Saved contacts</h2>
+          <p class="muted">Browser demo storage list</p>
+        </div>
+        <ul id="contactsList" class="contacts-list"></ul>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
