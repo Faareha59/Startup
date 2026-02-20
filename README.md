@@ -1,73 +1,44 @@
-# Voice Control Website (English + Roman Urdu)
+# Voice Control Phone (English + Roman Urdu)
 
-A modern single-page voice assistant demo for browser usage.
+An Android app starter that listens to voice commands in English or Roman Urdu and performs basic phone actions hands-free.
 
-## What it does
-- Listens to voice commands in English + Roman Urdu
-- Parses commands for:
-  - save contact number (downloads `.vcf`)
-  - open WhatsApp chat
-  - call (`tel:`)
-  - SMS (`sms:`)
-- Shows live status, transcript, action output, and saved-contact list
-- Includes clickable sample command chips for quick demo
-- Supports non-number commands like `open YouTube`, `open WhatsApp`, and `open Google`
-- Supports flexible phrasing order like `WhatsApp open`, `YouTube kholo`, `Google open`, and `Mujhe WhatsApp khol do`
+## Features
+- Speech recognition with free-form commands.
+- Dual-language command parsing (English + Roman Urdu patterns).
+- Core actions:
+  - Save contact from spoken number.
+  - Open WhatsApp chat with spoken number.
+  - Place phone call.
+  - Open SMS composer with message text.
+  - Open installed apps like Camera / Contacts.
 
-## Project files
-- `index.html` → upgraded UI layout
-- `styles.css` → modern glassmorphism + responsive styling
-- `app.js` → speech recognition, parser, actions
+## Example voice commands
+- "Save this number 03001234567"
+- "Is number ko save karo 03001234567"
+- "Go to WhatsApp and message 03001234567"
+- "WhatsApp kholo aur message bhejo 03001234567"
+- "Call 03001234567"
+- "SMS bhejo 03001234567 hello"
 
-## Run locally
-```bash
-python3 -m http.server 8080
-```
-Open `http://localhost:8080` in Chrome.
+## How it works
+1. `MainActivity` starts Android `SpeechRecognizer`.
+2. Transcript is sent to `CommandParser`.
+3. Parsed `VoiceCommand` is executed by `PhoneActionHandler` using Android intents / Contacts provider.
 
-## Run on GitHub (GitHub Pages)
-You can host this website directly from your GitHub repo.
-
-### 1) Push your code to GitHub
-```bash
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin <your-branch>
-```
-
-### 2) Enable GitHub Pages
-1. Open your repository on GitHub.
-2. Go to **Settings** → **Pages**.
-3. Under **Build and deployment**:
-   - **Source**: `Deploy from a branch`
-   - **Branch**: choose your branch (commonly `main`) and folder `/ (root)`
-4. Click **Save**.
-
-### 3) Open your live site
-After 1–3 minutes, GitHub shows a URL like:
-
-`https://<your-username>.github.io/<your-repo>/`
-
-Use that URL to run the app on the web.
-
-## Important for microphone on GitHub Pages
-- GitHub Pages uses HTTPS, so microphone access works in supported browsers.
-- Open site in Chrome/Edge and allow microphone permission when prompted.
-
-
-## Intent-model dataset (new)
-A starter dataset has been added for training a bilingual voice intent model aimed at older users:
-- `data/voice_intents_train.jsonl`
-- `data/voice_intents_dev.jsonl`
-- `data/intent_schema.json`
-
-Validate it with:
-```bash
-python3 scripts/validate_dataset.py
-```
-
-This lets you start model training even without Android Studio. You can test model behavior in the website first, then integrate into Android later.
+## Run
+1. Open in Android Studio (Hedgehog+ recommended).
+2. Let Gradle sync.
+3. Run on an Android phone.
+4. Grant permissions when prompted:
+   - Microphone
+   - Contacts
+   - Phone
+   - SMS
 
 ## Notes
-- Browser limitations apply; this is a web demo, not full OS-level phone automation.
-- Best results on Chrome/Chromium with microphone permission enabled.
-- For true full-control workflows (open app UI, click save buttons, navigate contacts automatically), use an Android app with accessibility/automation permissions.
+- This version uses pattern matching for simple commands.
+- For "full control" production behavior, add:
+  - Wake-word/background service.
+  - Safer confirmation layer for destructive actions.
+  - Accessibility service integration for deeper UI automation.
+  - On-device/offline ASR + multilingual NLP.

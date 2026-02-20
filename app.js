@@ -25,23 +25,15 @@ function includesAny(text, list) {
   return list.some((p) => text.includes(p));
 }
 
-function hasIntentWord(text) {
-  return /(open|khol\s*do|kholo|khol|khul\s*do|khul|chalao|launch|start|jao|go\s*to)/.test(text);
-}
-
-function hasWhatsAppWord(text) {
-  return /(whatsapp|whats\s*app|watsapp|whatsup)/.test(text);
-}
-
 function parseCommand(transcript) {
-  const text = transcript.toLowerCase().replace(/[^a-z0-9\s+]/g, ' ').replace(/\s+/g, ' ').trim();
+  const text = transcript.toLowerCase().trim();
   const number = getNumber(text);
 
   if (number && includesAny(text, ['save this number', 'save number', 'add contact', 'is number ko save', 'number save karo', 'contact mein save'])) {
     return { type: 'save_contact', number };
   }
 
-  if (number && (hasWhatsAppWord(text) || includesAny(text, ['message this number', 'message bhejo']))) {
+  if (number && includesAny(text, ['whatsapp', "what's app", 'message this number', 'message bhejo', 'whatsapp kholo'])) {
     return { type: 'whatsapp', number };
   }
 
@@ -54,20 +46,8 @@ function parseCommand(transcript) {
     return { type: 'sms', number, body };
   }
 
-  if ((text.includes('camera') && hasIntentWord(text)) || includesAny(text, ['open camera', 'camera kholo'])) {
-    return { type: 'open_url', url: 'https://webcamera.io/', label: 'Camera' };
-  }
-
-  if (text.includes('youtube') && hasIntentWord(text)) {
-    return { type: 'open_url', url: 'https://www.youtube.com', label: 'YouTube' };
-  }
-
-  if (hasWhatsAppWord(text) && (hasIntentWord(text) || includesAny(text, ['mujhe', 'please']))) {
-    return { type: 'open_url', url: 'https://web.whatsapp.com', label: 'WhatsApp Web' };
-  }
-
-  if (text.includes('google') && hasIntentWord(text)) {
-    return { type: 'open_url', url: 'https://www.google.com', label: 'Google' };
+  if (includesAny(text, ['open camera', 'camera kholo'])) {
+    return { type: 'open_url', url: 'https://webcamera.io/' };
   }
 
   return { type: 'unknown' };
@@ -126,8 +106,7 @@ function execute(command) {
     }
     case 'open_url': {
       window.open(command.url, '_blank');
-      const label = command.label ? ` ${command.label}` : ' requested service';
-      return `Opening${label}`;
+      return 'Opening requested service';
     }
     default:
       return 'Sorry, command samajh nahi aaya.';
@@ -137,9 +116,7 @@ function execute(command) {
 function processTranscript(transcript) {
   transcriptText.textContent = transcript || '-';
   const command = parseCommand(transcript);
-  const actionMessage = execute(command);
-  actionText.textContent = actionMessage;
-  statusText.textContent = actionMessage;
+  actionText.textContent = execute(command);
 }
 
 renderContacts();
@@ -147,6 +124,7 @@ renderContacts();
 document.querySelectorAll('.chip').forEach((chip) => {
   chip.addEventListener('click', () => {
     processTranscript(chip.textContent || '');
+    statusText.textContent = 'Executed sample command';
   });
 });
 

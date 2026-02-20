@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Voice Control Phone</string>
+    <string name="app_title">Voice Control (English + Roman Urdu)</string>
+    <string name="help_text">Try saying:\n• Save this number 03001234567\n• Is number ko save karo 03001234567\n• Go to WhatsApp and message 03001234567\n• WhatsApp kholo aur message bhejo 03001234567\n• Call 03001234567\n• SMS bhejo 03001234567 hello</string>
+</resources>
