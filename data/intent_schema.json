@@ -1,0 +1,28 @@
+{
+  "description": "Starter bilingual (English + Roman Urdu) intent dataset for elder-friendly voice assistant prototypes.",
+  "fields": {
+    "text": "user utterance",
+    "intent": "intent label",
+    "language": "en|ur|mixed",
+    "target_users": "older_adults",
+    "entities": "optional entity map"
+  },
+  "intents": [
+    "ask_contact_name",
+    "call_contact",
+    "confirm_contact_name",
+    "open_contact_chat",
+    "open_facebook",
+    "open_saved_items",
+    "open_snapchat",
+    "open_whatsapp",
+    "open_youtube",
+    "save_contact",
+    "scroll_down",
+    "scroll_up",
+    "search_youtube_video",
+    "send_image",
+    "send_voice_note",
+    "unknown_or_help"
+  ]
+}
